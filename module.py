@@ -11,6 +11,7 @@ class Chat():
     def __init__(self, message):
         self.message = message
 
+       
     def lets_chat():
         chat = True
         while chat:
@@ -63,6 +64,16 @@ class Question():
             print("\n\nYay, you've got perfect score! You are good to go! ^^")
         else:
             print(f"\n\nIt's alright, {name}. You will get this next time. Let's practice more.")
+        
+# Tests for the object in Question()
+assert Question
+test_question = Question("question", "answer")
+assert isinstance(test_question, Question)
+assert isinstance(test_question.prompt, str)
+assert isinstance(test_question.answer, str)
 
-            
-  
+# Test for the object in Chat
+assert Chat
+test_chat = Chat('Hi')
+
+
