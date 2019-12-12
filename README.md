@@ -13,6 +13,3 @@
     see the final result of the project and interact with 
     Lexicon-Rig checkout file called "quiz_is_here.ipynb"
     
-    P.S. test_file.ipynb has some try outs I started originally 
-    but decided to create new file. If you are interested you 
-    can see what I have tried. 
