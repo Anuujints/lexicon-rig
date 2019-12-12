@@ -4,7 +4,7 @@ class Chat():
     -------------
     Asks user to choose the difficulty of 
     the quiz he/she would like to take
-    
+   
     ------------
     User should only enter the number of the two choices
     """
@@ -41,16 +41,20 @@ class Question():
         prompt: string
         answer: string
         
-        Runs test:
         ----------
-        Asks user's name and presents questions from the prompt
-        Increments user's score based on their correct response
+        Asks user's name and presents questions from the prompts
+        ----------
+       
+        Runs test:
+            loops through prompts in questions
+            if conditionals:
+                   if the answer is correct
+                       it increments score by 1      
         """
         self.prompt = prompt
         self.answer = answer
     
     def run_test(questions):
-        
         name = input("Can you remind me your name again? ")
         score = 0
         
